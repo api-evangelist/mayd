@@ -1,8 +1,30 @@
 aid: mayd
-name: Mayd
-description: Mayd is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mayd.png
+name: MAYD
+description: >-
+  MAYD (Meds At Your Doorstep) is a Berlin-based on-demand medication delivery
+  service building a digital healthcare platform for Europe. Founded in 2021 by
+  Hanno Heintzenberg and Lukas Pieczonka (previously McMakler), MAYD partners
+  with local pharmacies to deliver over-the-counter and prescription medications
+  to consumers' doors in about 30 minutes, 365 days a year, across German cities
+  including Berlin, Hamburg, Munich, Frankfurt, Cologne and Düsseldorf. The
+  company operates a consumer mobile app and website (getmayd.com) and raised a
+  ~EUR 30M Series A led by Lightspeed Venture Partners in January 2022, with
+  participation from Target Global, 468 Capital and Earlybird Venture Capital.
+  MAYD is a consumer-facing (B2C) delivery business and does not currently
+  publish a public developer API, developer portal, or partner API surface; it
+  is a Stripe payments customer for its checkout and billing.
 url: https://raw.githubusercontent.com/api-evangelist/mayd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Pharmacy
+- Medication Delivery
+- On-Demand Delivery
+- Digital Health
+- E-Commerce
+- Logistics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mayd-domain-security.yml
+- type: Website
+  url: https://www.getmayd.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mayd-meds-at-your-doorstep
+- type: Support
+  url: mailto:info@getmayd.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
